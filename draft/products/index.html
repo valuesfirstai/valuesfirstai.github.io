@@ -1,0 +1,154 @@
+<html>
+  <head>
+    <title>VFAI</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="../script.js"></script>
+  </head>
+  <body>
+    <!-- navbar from codepen (licence): 
+      Copyright (c) 2023 by hanseklev (https://codepen.io/hanseklev/pen/eYJmGbN)
+      Fork of an original work Basic Responsive Menu Skeleton (https://codepen.io/GavinMichael/pen/zZejxX
+
+      Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+      The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+      THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    -->
+    <div class="nav-container">
+      <nav class="navBar" id="mainNav">
+        <a href="/"><img class="logo" src="../static/vfai_logo.png" alt="VFAI Logo"/></a>
+        <a href="/products">Products</a>
+        <a href="/contact">Contact Us</a>
+        <a href="javascript:void(0);" class="icon" onClick="openDrawerMenu()"><i class="la la-bars"></i></a>
+      </nav>
+    </div>
+    <div class="section top-padding">
+      <div class="product-display">
+        <img src="../static/newcomer-right.svg" alt="">
+        <div>
+          <h1>The Newcomer App</h1>
+          <p>The Newcomer App Project started in May 2023 as an intiative at University of Waterloo, in partnership with the KW4 Ontario Health Team, to design an app that would help newcomers - immigrants, refugees, international students - navigate their transition to Canada, with a special focus on social determinants of health.
+          <br><br>Working with close to 100 immigrants, refugees and organization members, we took a <b>value-sensitive and participatory design</b> approach, and co-designed the app with newcomers and newcomer-serving organizations in the Kitchener-Waterloo Region.
+          <br><br>Today, the Newcomer App is a multi-lingual and hyper-local resource navigation platform for newcomers.  Our goal is to leverage AI technology to build <b>a new ecosystem of support</b> for newcomers, that involves not only health and social services, but also community centres, libraries, parks, educational institutions, small businesses (e.g., ethnic restaurants and grocery stores), places of workshop, transportation services, and ethnocultural organizations.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="alt-heading">
+        <h2>Problem</h2>
+      </div>
+      <div class="box">
+        <p>The Waterloo Region added 52,011 residents between 2016 and 2021 (535,154 to 587,165) and newcomers accounted for 53.5% of that growth. In fact, the number of permanent residents settling in the Waterloo-Wellington region has almost tripled in the last year.  In 2020, there were 3,700 new residents, increasing to over 10,000 in 2021 (Statistics Canada, 2023).  
+          
+        <br><br>The newcomer’s health problem is by no means restricted to KW4; it is a widespread problem for all of Canada as well as many parts of the world.  There is a steady increase of immigrants and refugees settling in Canada in the past decade; this trend will likely continue as a result of the federal government setting a new record high for immigration target levels, aiming to welcome 500,000 new immigrants per year by 2025, of which around 75,000 are expected to be refugees (Immigration, Refugees and Citizenship Canada, 2022).
+        
+        <br><br>Research on the physical health of immigrants in Canada demonstrates that immigrants tend to be healthier than non-immigrants upon arrival in Canada. However, across every immigration category, the longer they live in Canada the more their health deteriorates (Newbold, 2006).  The experience of arriving with a health advantage and losing it over time has been called the "Healthy Immigrant Effect” (Newbold, 2006).  
+        Several factors contribute to declining health outcomes among immigrants, such as income levels, official language proficiency, circumstances of arrival (e.g., refugees who experienced oppression, conflict, violence and persecution), unfair treatment or discrimination, health literacy and ability to integrate.   In other words, the problem that we are addressing is pervasive, urgent and worsening over time.
+        </p>
+      </div>
+    </div>
+    <div class="section">
+      <div class="alt-heading">
+        <h2>Our Process</h2>
+      </div>
+      <div class="product-display">
+        <img class="square" src="../static/capability-board.png" alt="">
+        <div>
+          <h3>Interviews</h3>
+          <p>In May-August 2023, we completed interviews with 50 with immigrants and refugees in 9 different languages and 16 newcomer-serving organizations. Newcomers were asked to
+          rank the capabilities that are most important to them, discuss whether/how these capabilities have changed (either in a positive or negative way) as a result of their move to Canada, services, events, programs, and activities that they tapped into (if any) to address these capabilities, and the successes and challenges in navigating the health and social service system to address these capabilities. </p>
+        </div>
+      </div>
+      <div class="product-display">
+        <img class="square" src="../static/codesign.png" alt="">
+        <div>
+          <h3>Co-Design</h3>
+          <p>In Oct-Nov 2023, we invited 29 newcomers and 6 organizations to meet at a local library to clarify the problem context and to brainstorm features for the app. The co-design session involved: (1) a card sorting activity where participants decide on an information architecture of the apps (e.g., how capabilities should be named, how events and programs can be categorized, etc.) that can be easily generalized/translated to different cultures, (2) a “Magic Thing” activity that asks participants to imagine what the newcomer app should do.  The goal is to gather diverse design ideas, without participants having to worry whether it is technically feasible or not. </p>
+        </div>
+      </div>
+      <div class="product-display">
+        <img class="square" src="../static/challenges.png" alt="">
+        <div>
+          <h3>Feature Design</h3>
+          <p>In Jan-April, we developed the first version of our prototype based on four main challenges that we discovered through interviews and co-design; these include 
+          (1) <b>the need for knowledge</b>, including procedural knowledge (e.g., “how to apply for private health
+          insurance”) and folk knowledge (e.g., “how to maintain health through Canadian winters”); 
+          (2) <b>the need for connections</b>, including need-based connections (e.g., people that can help them find housing, legal help, health support), identity-based connections (e.g., meeting people with similar faith, gender, culture), social connections (e.g., meeting new friends), and professional connections (e.g., meeting mentors who can teach them about the Canadian workplace); 
+          (3) <b>the need for self-expression</b>, including language help and opportunities to be heard; 
+          (4) <b>managing the bigger picture</b>, e.g., understanding how available resources evolve as immigration status changes, how they can take care of the extended self (e.g., children, spouses, people back home).  </p>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="alt-heading">
+        <h2>Product Features</h2>
+        <p>At the core, the Newcomer App is a goal-setting tool that prompts users to choose aspects of well-being to work on, provides them suggested actions and relevant resources to complete the actions, and provides them with language support so that they can ask further questions in their own language about how to complete those actions.  Open-sourced AI models are used in various app features, for personalized recommendation, language translation and question answering.  Below is a sneak peak of the current Newcomer App.</p>
+      </div>
+      <div class="things">
+        <div class="product-display">
+          <img src="../static/explore.png" alt="">
+          <div>
+            <p>The <b>explore</b> tab allows users to explore a personalized feed of tips, organizations, events and sponsored content, and learn about other cultures through holiday reminders.</p>
+          </div>
+        </div>
+        <div class="product-display">
+          <img src="../static/search.png" alt="">
+          <div>
+            <p>The <b>search</b> tab allows users to search more specifically for content under specific categories (e.g., education, exercise).  Once inside those categories, they can filter the content by tips, organizations, events and sponsored content. </p>
+          </div>
+        </div>
+        <div class="product-display">
+          <img src="../static/plan.png" alt="">
+          <div>
+            <p>In the <b>plan</b> tab, users can plan a concrete action to address an aspect of their well-being, receive suggestions, browse related organizations and events, and log their experience.
+          </p>
+          </div>
+        </div>
+        <div class="product-display">
+          <img src="../static/ask.png" alt="">
+          <div>
+            <p>In the <b>ask</b> tab, users can choose to converse with a chatbot in their own language about the actions they have planned, or the person-to-person chat to converse with another person who speaks a different language.</p>
+          </div>
+        </div>
+      </div>  
+    </div>
+    <!--<div class="section">
+      <div class="alt-heading">
+        <h2>Applications</h2>
+        <p></p>
+      </div>
+    </div>-->
+  </body>
+  <footer>
+    <div class="name">
+      <p><img class="logo" src="../static/vfai_logo_white.svg" alt=""></p>
+      <p>bringing value sensitivity<br>to AI development</p>
+    </div>
+    <div class="links">
+      <div class="linkgroup">
+        <p>Company</p>
+        <a href="/people">About Us</a>
+        <a href="mailto:info@valuesfirst.ai">Media Inquiries</a>
+      </div>
+      <!--<div class="linkgroup">
+          <p>Privacy & Safety</p>
+          <a href="/privacy">Privacy Policy</a>
+          <a href="/tos">Terms of Service</a>
+        </div>
+      <div class="linkgroup">
+        <p>Social Media</p>
+        <a href="https://www.linkedin.com/company/valuesfirst-ai">LinkedIn</a>
+        <a href="https://www.facebook.com/profile.php?id=61560794291223&sk=about_contact_and_basic_info">Facebook</a>
+        <a href="https://www.instagram.com/valuesfirst.ai/">Instagram</a>
+      </div>-->
+    </div>
+  </footer>
+</html>
