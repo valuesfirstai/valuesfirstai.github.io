@@ -330,7 +330,7 @@ strong {
     display: flex;
     padding: 0rem 4rem 4rem 4rem;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     gap: 2rem;
     align-self: stretch;
 }
