@@ -658,8 +658,8 @@ strong {
     background: #F6F1FF;    
 }
 img.square {
-    min-width: 14.375rem;
-    height: 14.375rem;
+    min-width: 10.375rem;
+    height: 10.375rem;
     border-radius: 1.875rem;
     background: linear-gradient(180deg, #AE85FF 0%, #BFBEFF 100%);
 }
