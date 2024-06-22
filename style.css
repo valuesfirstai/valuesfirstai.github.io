@@ -817,3 +817,8 @@ Removes the underline with text decoration = none.*/
 .content {
     padding: 0px 16px;
 }
+
+.usergroup > p {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
