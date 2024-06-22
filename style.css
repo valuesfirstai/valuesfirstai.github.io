@@ -49,6 +49,7 @@ h3 {
 .flex > main {
     flex: 1;
 }
+
 .things {
     display: flex;
     align-self: stretch;
@@ -125,6 +126,10 @@ h3 {
     }
     .problems > .product-display p {
         width: 75vw;
+    }
+    .product-display > .man {
+        width: 12rem;
+        height: auto;
     }
 }
 
@@ -518,7 +523,6 @@ strong {
 }
 .product-display > img {
     height: 18rem;
-    margin-left: 20px;
 }
 .product-display.pfp > img {
     height: 20rem;
@@ -704,7 +708,7 @@ strong {
 img.square {
     min-width: 7rem;
     height: 7rem;
-    border-radius: 1.875rem;
+    border-radius: 0.75rem;
     background: linear-gradient(180deg, #AE85FF 0%, #BFBEFF 100%);
 }
 
