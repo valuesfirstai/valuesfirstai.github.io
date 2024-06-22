@@ -822,3 +822,7 @@ Removes the underline with text decoration = none.*/
     margin-top: 5px;
     margin-bottom: 0px;
 }
+
+.pitch {
+    font-size: 22px;
+}
