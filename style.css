@@ -113,6 +113,10 @@ h3 {
     .problems {
         flex-wrap: nowrap;
         flex-direction: column;
+        align-items: center;
+    }
+    .problems > img {
+        max-width: 180px;
     }
     .problems > .product-display img {
         margin-left: 0;
