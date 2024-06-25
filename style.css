@@ -565,6 +565,16 @@ strong {
     line-height: normal;
     margin: 0;
 }
+
+.product-display > div > span {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .product-display > div > h1 {
     color: #000;
     font-family: 'Inter', sans-serif;
@@ -829,4 +839,21 @@ Removes the underline with text decoration = none.*/
 
 .pitch {
     font-size: 22px;
+}
+
+.cfa > div > a {
+    display: flex;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #000;
+    background-color: #FFF;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
 }
