@@ -838,7 +838,7 @@ Removes the underline with text decoration = none.*/
 }
 
 .pitch {
-    font-size: 22px;
+    font-size: 1.25rem;
 }
 
 .cfa > div > a {
