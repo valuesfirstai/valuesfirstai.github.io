@@ -841,7 +841,8 @@ Removes the underline with text decoration = none.*/
     font-size: 1.25rem;
 }
 
-.cfa > div > a {
+
+.buttonlink {
     display: flex;
     padding: 0.5rem 1rem;
     align-items: center;
